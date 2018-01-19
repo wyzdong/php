@@ -54,3 +54,5 @@ sudo make install
 sudo mkdir /etc/php
 sudo cp php.ini-development /etc/php/php.ini
 ```
+>其他扩展
+增加redis扩展 '--enable-redis-igbinary'
