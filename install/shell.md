@@ -48,6 +48,7 @@ cd php-5.6.22/
 --with-xmlrpc \
 --with-curl \
 --with-imap-ssl
+--enable-maintainer-zts
 
 sudo make
 sudo make install
