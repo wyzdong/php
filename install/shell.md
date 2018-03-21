@@ -27,6 +27,7 @@ cd php-5.6.22/
 --enable-sysvmsg \
 --enable-sysvsem \
 --enable-sysvshm \
+--enable-intl \
 --enable-shmop \
 --enable-zip \
 --enable-soap \
@@ -35,7 +36,6 @@ cd php-5.6.22/
 --disable-rpath \
 --disable-debug \
 --disable-fileinfo \
---with-mysql=mysqlnd \
 --with-mysqli=mysqlnd \
 --with-pdo-mysql=mysqlnd \
 --with-pcre-regex \
@@ -55,5 +55,3 @@ sudo make install
 sudo mkdir /etc/php
 sudo cp php.ini-development /etc/php/php.ini
 ```
->其他扩展
-增加redis扩展 '--enable-redis-igbinary'
